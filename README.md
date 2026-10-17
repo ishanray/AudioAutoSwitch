@@ -39,10 +39,10 @@ cd AudioAutoSwitch
 open build
 ```
 
-To make a signed and notarized release, save notarization credentials with `xcrun notarytool store-credentials <profile>`, then run:
+To make a signed and notarized release, sign in to your Apple developer account in Xcode → Settings → Accounts, then run:
 
 ```sh
-CODESIGN_IDENTITY="Developer ID Application: Your Name (TEAMID)" NOTARY_PROFILE=<profile> ./scripts/release.sh
+TEAM_ID=<your team ID> ./scripts/release.sh
 ```
 
 ## Why doesn't my Mac switch to USB headphones on its own?
