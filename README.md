@@ -1,14 +1,23 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Audio Auto Switch: plug in your headphones and your Mac plays through them" width="100%">
+  <img src="assets/banner.svg" alt="Audio Auto Switch: Mac menu bar app that switches sound to USB-C headphones like Bose wired earbuds when you plug them in" width="100%">
 </p>
 
-# Audio Auto Switch
+# Audio Auto Switch: make your Mac play through USB-C headphones when you plug them in
 
-A small menu bar app for macOS. When you plug in your USB or USB-C headphones, it switches your Mac's sound to them.
+A small, free menu bar app for macOS. When you plug in your USB or USB-C headphones, it switches your Mac's sound output to them.
 
 I made it for my **Bose Noise Cancelling Wired Earbuds (USB-C)**. When I plugged them into my MacBook Pro, the microphone switched over but the sound kept coming out of the speakers, so I had to open Sound settings every time. With this app, the sound moves to the earbuds when I plug them in.
 
 It works with any audio device you can plug in, such as USB-C earbuds, USB headsets, USB DACs, and docks with a headphone jack.
+
+## Does this fix your problem?
+
+It's for you if one of these happens on your Mac:
+
+- You plug in your Bose wired earbuds (or other USB-C earbuds) and there's no sound in them. It keeps playing from the MacBook speakers.
+- The USB-C headphones' microphone works on your Mac, but the sound doesn't.
+- Your Mac doesn't switch to USB headphones on its own, so you have to change the output in System Settings → Sound every time.
+- Your USB headset, USB DAC, or dock's headphone jack isn't picked as the sound output when you connect it.
 
 ## How to use it
 
